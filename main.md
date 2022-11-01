@@ -17,11 +17,7 @@ public class Main{
 	int num = leia.nextInt();
     
     System.out.println("O Dobro de "+num+ " é "+2*num);
-	        	
-	}
-}
-
-}
+    } } }
 
 2. Faça um programa que leia um número e que imprima os números ímpares de 1 até o número informado. 
 
@@ -41,6 +37,4 @@ public class Main {
         if ((num%2) == 1) {
         System.out.println(num);
  	     }
-	}
-}
-}
+	} } }
