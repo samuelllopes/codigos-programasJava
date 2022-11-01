@@ -3,8 +3,8 @@
 
 1 - Faça um programa que faça a leitura de 5 valores, e para cada valor, mostre o seu dobro na tela. 
 
-import java.util.Scanner; 
-public class Main{
+	import java.util.Scanner; 
+	public class Main{
 
 	public static void main(String[] args) {
 	    
@@ -21,20 +21,20 @@ public class Main{
 
 2. Faça um programa que leia um número e que imprima os números ímpares de 1 até o número informado. 
 
-import java.util.Scanner;
-public class Main {
+		import java.util.Scanner;
+		public class Main {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 	    
-	    Scanner leia = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in);
 	    
-	    int n1;
+	   	 int n1;
 
-        System.out.println("Digite um numero: ");
-        n1 = leia.nextInt();
+        	System.out.println("Digite um numero: ");
+        	n1 = leia.nextInt();
 
-        for (int num = 1; num <= n1; num++) {
-        if ((num%2) == 1) {
-        System.out.println(num);
- 	     }
-	} } }
+        	for (int num = 1; num <= n1; num++) {
+        	if ((num%2) == 1) {
+        	System.out.println(num);
+ 	     					}
+		} } }
