@@ -3,11 +3,9 @@
 Repositório com códigos e programas em Java, feito por mim! 
 
 
-## Índice/Sumário
+# Listas Disponivéis - Realizadas
 
-* [Índice/Sumário](#Índice-/-Sumário)
-* [mainfor.md](#mainfor.md)
-* [main2](#main2)
-* [main3](#main3)
-* [main4](#main4)
-
+* [main1.md](main1.md)
+* [main2.md](main1.md)
+* [main3.md](main1.md)
+* [main4.md](main1.md)
