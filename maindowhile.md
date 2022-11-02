@@ -64,8 +64,8 @@
                System.out.println("------------------------");
 
               validar = 0;
-      } 
-              else{
+              } 
+                 else{
 
                validar = 1;
            }
