@@ -5,7 +5,7 @@ Repositório com códigos e programas em Java, feito por mim!
 
 # Listas Disponivéis - Realizadas
 
-* [mainfor.md](mainfor.md)
-* [mainsequencial.md](mainsequencial.md)
-* [maincondicional.md](maincondicional.md)
-* [maindowhile.md](maindowhile.md)
+* [mainfor.java](mainfor.java)
+* [mainsequencial.java](mainsequencial.java)
+* [maincondicional.java](maincondicional.java)
+* [maindowhile.java](maindowhile.java)
