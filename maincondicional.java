@@ -3,12 +3,13 @@
 
 1. Faça um programa que receba dois números e mostre o maior e o menor. Emita uma mensagem, caso os dois sejam iguais.
 
-          import java.util.Scanner; 
-           public class Main{
-
-	      public static void main(String[] args) {
+import java.util.Scanner; 
+public class Main
+{
+	public static void main(String[] args) {
 	    
-	     Scanner leia = new Scanner(System.in);
+	  Scanner leia = new Scanner(System.in);
+	   
 	  
 	   int n1, n2; 
 	   
@@ -33,144 +34,145 @@
 	       System.out.println("Os valores são iguais");
 	   }
 
-    	}
+	}
+}
 
 2. Faça um programa que receba as duas notas de um aluno, calcule sua média, e que imprima a sua situação: 
 >= 7 -> Aprovado
 < 7 -> Reprovado
   
-    import java.util.Scanner;
-    public class Main{
+import java.util.Scanner;
+public class Main{
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 	    
-    Scanner leia = new Scanner(System.in);
+Scanner leia = new Scanner(System.in);
 
-	double soma, a1, a2, media; 
+double soma, a1, a2, media; 
 	
-	System.out.println("Digite sua 1° nota ");
-	a1 = leia.nextDouble();
+System.out.println("Digite sua 1° nota ");
+a1 = leia.nextDouble();
 	  
-	System.out.println("Digite sua 2° nota ");
-	a2 = leia.nextDouble();
+System.out.println("Digite sua 2° nota ");
+a2 = leia.nextDouble();
    
-	soma = a1+a2;
+soma = a1+a2;
 	
-	media = soma / 2;
-	System.out.println("Você obteve uma média de "+media);
+media = soma / 2;
+System.out.println("Você obteve uma média de "+media);
 
-	if (soma > 70){ 
-	System.out.println("Você tirou "+soma+ " Está Aprovado");
-	} 
-	else{ 
-	System.out.println("Você tirou " +soma+ " Está Reprovado");
-	}
+if (soma > 70){ 
+System.out.println("Você tirou "+soma+ " Está Aprovado");
+} 
+else{ 
+System.out.println("Você tirou " +soma+ " Está Reprovado");
+}
 
-	}
+}
     }
 
 3. Faça um programa que receba 3 notas de um aluno, calcule e mostre uma mensagem de acordo com sua média:
 
-           import java.util.Scanner;
-            public class Main{
-
-        public static void main(String[] args) {
-        int a1, a2, a3;
-        double soma, media;
-
-        Scanner leia = new Scanner(System.in);
-
-        System.out.println("Digite a 1° nota: ");
-        a1 = leia.nextInt();
-        System.out.println("Digite a 2° nota: ");
-        a2 = leia.nextInt();
-          System.out.println("Digite a 3° nota: ");
-        a3 = leia.nextInt();
-
-        soma = a1+a2+a3; 
-        media = soma / 3;
-        System.out.println("A media das suas notas foram "+media);
-        System.out.println("A somativa das suas notas foi "+soma);
-
-        if (media >= 7) { 
-        System.out.println("Aprovado");
-        } 
-        else if (media >= 4) { 
-        System.out.println("Exame");
-        }
-        else {
-        System.out.println("Exame");   
-        }
-
-        }
-         }
+import java.util.Scanner;
+public class Main{
+    
+	public static void main(String[] args) {
+	int a1, a2, a3;
+	double soma, media;
+	
+	Scanner leia = new Scanner(System.in);
+	
+	System.out.println("Digite a 1° nota: ");
+	a1 = leia.nextInt();
+	System.out.println("Digite a 2° nota: ");
+	a2 = leia.nextInt();
+    System.out.println("Digite a 3° nota: ");
+	a3 = leia.nextInt();
+  
+	soma = a1+a2+a3; 
+	media = soma / 3;
+	System.out.println("A media das suas notas foram "+media);
+	System.out.println("A somativa das suas notas foi "+soma);
+	
+	if (media >= 7) { 
+	System.out.println("Aprovado");
+	} 
+	else if (media >= 4) { 
+	System.out.println("Exame");
+	}
+	else {
+	System.out.println("Exame");   
+	}
+	
+  }
+}
 
 4. Dados três valores X,Y,Z, verificar se eles podem ser os comprimentos dos lados de um triângulo. Se eles não formarem um triângulo escrever uma mensagem. Considerar que o comprimento de cada lado de um triângulo é menor que a soma dos outros dois lados.
+import java.util.Scanner; 
+public class Main
+{
+	public static void main(String[] args) {
+	
+	Scanner leia = new Scanner (System.in);
+	
+	float x, y, z; 
+	
+	System.out.println("Informe o valor de x:");
+    x = leia.nextFloat();
+	
+	System.out.println("Informe o valor de y:");
+    y = leia.nextFloat();
+    
+	System.out.println("Informe o valor de z:");
+    z = leia.nextFloat();
+	
+    if (x == y && y == z){ 
+    System.out.println("Triangulo Equilaterio");
+    }
+    
+    else if ( x == y || x == z || y== z){
+     System.out.println("Tringulo Isosceles");
+     
+    }
+    
+    else { 
+        System.out.println("Não é um triangulo");
+    }
+    
+}
+}
 
-        import java.util.Scanner; 
-        public class Main {
-        
-          public static void main(String[] args) {
-
-          Scanner leia = new Scanner (System.in);
-
-          float x, y, z; 
-
-          System.out.println("Informe o valor de x:");
-            x = leia.nextFloat();
-
-          System.out.println("Informe o valor de y:");
-            y = leia.nextFloat();
-
-          System.out.println("Informe o valor de z:");
-            z = leia.nextFloat();
-
-            if (x == y && y == z){ 
-            System.out.println("Triangulo Equilaterio");
-            }
-
-            else if ( x == y || x == z || y== z){
-             System.out.println("Tringulo Isosceles");
-
-            }
-
-            else { 
-                System.out.println("Não é um triangulo");
-            }
-
-        }
-        }
 
 5. Faça um programa que leia o sexo e a altura (H - em metros) de uma pessoa, calcule e apresente seu peso ideal utilizando as seguintes fórmulas: 
 Peso ideal (homens) = (72,7 * H) – 58. 
 Peso ideal (mulheres) = (62,1 * H) – 44,7
 Sugestão: para identificar o sexo da pessoa, solicite ao usuário que informe 1 para homens, e 2 para mulheres
 
-      import java.util.Scanner; 
-      public class Main{ 
+import java.util.Scanner; 
+public class Main{ 
 
-          public static void main(String[] args) {
-          Scanner leia = new Scanner(System.in);   
-
-          double  altura, pesoideal;
-          String sexo;
-
-          System.out.println("Digite sua altura:");
-          altura = leia.nextDouble();
-
-          System.out.println("Digite seu sexo [F] ou [M]:");
-          sexo = leia.next();
-
-          if(sexo.equals("M")) {
-              pesoideal = 72.7*altura - 58;
-          }
-          else {
-              pesoideal = 62.1*altura - 44.7;
-          } 
-
-          System.out.println("O seu peso ideal é " +pesoideal);
-      }
-      }
+    public static void main(String[] args) {
+    Scanner leia = new Scanner(System.in);   
+       
+    double  altura, pesoideal;
+    String sexo;
+    
+    System.out.println("Digite sua altura:");
+    altura = leia.nextDouble();
+    
+    System.out.println("Digite seu sexo [F] ou [M]:");
+    sexo = leia.next();
+    
+    if(sexo.equals("M")) {
+        pesoideal = 72.7*altura - 58;
+    }
+    else {
+        pesoideal = 62.1*altura - 44.7;
+    } 
+  
+    System.out.println("O seu peso ideal é " +pesoideal);
+}
+}
 
 
 6. Construa um programa para determinar se o indivíduo está com um peso favorável. Essa situação é determinada através do IMC (Índice de Massa Corpórea), que é definida como sendo a relação entre o peso (PESO – em kg) e o quadrado da Altura (ALTURA – em m) do indivíduo. Ou seja,
