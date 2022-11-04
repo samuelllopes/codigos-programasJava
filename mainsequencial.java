@@ -1,4 +1,5 @@
-## Programação de Soluções Computacionais - Estrutura Sequencial
+Programação de Soluções Computacionais - Estrutura Sequencial
+
 
 1. Leia três números inteiros e imprima a média aritmética entre esses números.
 
