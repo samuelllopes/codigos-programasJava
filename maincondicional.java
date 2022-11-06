@@ -181,6 +181,29 @@ IMC= PESO/ALTURA2
 
 7. Uma empresa decide dar aumento de 30% aos funcionários com salários inferiores a R$1000,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso o funcionário não tenha direito ao aumento.
 
+import java.util.Scanner;
+public class Main{
+
+    public static void main(String[] args) {
+        
+    double salario;
+        
+    Scanner teclado = new Scanner(System.in);
+        
+    System.out.println("Digite seu salario: ");
+    salario = teclado.nextInt(); 
+        
+    
+    if(salario < 1.000){
+	  System.out.println("Funcionário tem direito a reajuste");
+	  System.out.println("Salario Reajustado é: " +salario * 1.3);
+    } 
+    
+	else if(salario > 1.000) {
+	  System.out.println("Funcionário não tem direito a reajuste");
+    }
+}
+}
 
 8. Faça um programa que receba a idade de um nadador e mostre a sua categoria
 
