@@ -186,7 +186,7 @@ public class Main{
 
     public static void main(String[] args) {
         
-    double salario;
+    int salario;
         
     Scanner teclado = new Scanner(System.in);
         
