@@ -184,6 +184,37 @@ IMC= PESO/ALTURA2
 
 8. Faça um programa que receba a idade de um nadador e mostre a sua categoria
 
+import java.util.Scanner; 
+public class Main{ 
+
+    public static void main(String[] args) {
+    Scanner leia = new Scanner(System.in);   
+       
+    int  idade; 
+    
+    System.out.println("Digite sua idade:");
+    idade = leia.nextInt();
+    
+    if(idade <= 7) {
+        System.out.println("Sua categoria é INFANTIL");
+    }
+    else if (idade >= 8 && idade < 10) {
+        System.out.println("Sua categoria é JUVENIL"); 
+    } 
+    else if(idade >= 11 && idade < 15) {
+        System.out.println("Sua categoria é ADOLESCENTE"); 
+    } 
+    else if(idade >= 16 && idade < 30) {
+        System.out.println("Sua categoria é ADULTO"); 
+    } 
+    else if(idade > 30) {
+        System.out.println("Sua categoria é SENIOR");
+    } 
+   
+}
+}
+
+
 9. Faça um programa que leia a idade de uma pessoa e informe a sua classe eleitoral: 
 - não eleitor (abaixo de 16 anos); 
 - eleitor obrigatório (entre a faixa de 18 e menor de 65 anos); 
