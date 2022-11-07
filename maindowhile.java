@@ -107,5 +107,74 @@ O final da leitura de dados dar-se-á com a entrada de salários negativos.
 4 – Dividir
 5 – Sair
 
-Em seguida, leia a opção escolhida e exiba o resultado de acordo com a opção.
-O programa irá executar até que  o usuário escolha a opção 5.
+ 
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner leia = new Scanner(System.in);
+
+        int Opcao = 0;
+        double Valor1, Valor2, Resultado;
+
+        while (Opcao != 5) {
+            switch (Opcao) {
+
+                case 1
+                    System.out.println(Soma);
+                    System.out.println(Entre com o primeiro valor);
+                    Valor1 = leia.nextDouble();
+                    System.out.println(Entre com o segundo valor);
+                    Valor2 = leia.nextDouble();
+                    Resultado = Valor1 + Valor2;
+                    System.out.println(O Resultado é + Resultado);
+                    break;
+                case 2
+                    System.out.println(Subtração);
+                    System.out.println(Entre com o primeiro valor);
+                    Valor1 = leia.nextDouble();
+                    System.out.println(Entre com o segundo valor);
+                    Valor2 = leia.nextDouble();  
+                    Resultado = Valor1 - Valor2;
+                    System.out.println(O Resultado é + Resultado);
+                    break;
+                case 3
+                    System.out.println(Multiplicação);
+                    System.out.println(Entre com o primeiro valor);
+                    Valor1 = leia.nextDouble();
+                    System.out.println(Entre com o segundo valor);
+                    Valor2 = leia.nextDouble();
+                    Resultado = Valor1  Valor2;
+                    System.out.println(O Resultado é + Resultado);
+                    break;
+                case 4
+                    System.out.println(Divisão);
+                    System.out.println(Entre com o primeiro valor);
+                    Valor1 = leia.nextDouble();
+                    System.out.println(Entre com o segundo valor);
+                    Valor2 = leia.nextDouble();
+                    Resultado = Valor1  Valor2;
+                    System.out.println(O Resultado é + Resultado);
+                    break;
+                case 5
+                    break;
+}
+            System.out.println();
+            System.out.println(Calculadora em Java);
+            System.out.println();
+            System.out.println(1. Soma);
+            System.out.println(2. Subtração);
+            System.out.println(3. Multiplicação);
+            System.out.println(4. Divisão);
+            System.out.println(5. Sair);
+            System.out.println();
+            System.out.println(Escolha a opção);
+            Opcao = leia.nextInt();
+            
+        }
+
+
+    }
+
+
+}
