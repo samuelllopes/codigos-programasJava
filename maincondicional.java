@@ -178,6 +178,44 @@ public class Main{
 6. Construa um programa para determinar se o indivíduo está com um peso favorável. Essa situação é determinada através do IMC (Índice de Massa Corpórea), que é definida como sendo a relação entre o peso (PESO – em kg) e o quadrado da Altura (ALTURA – em m) do indivíduo. Ou seja,
 IMC= PESO/ALTURA2
 
+import java.util.Scanner; 
+public class Main{ 
+
+    public static void main(String[] args) {
+    Scanner leia = new Scanner(System.in);   
+       
+    float  peso , altura , imc;
+    
+    System.out.println("Digite sua altura:");
+    altura = leia.nextFloat();
+    
+    System.out.println("Digite seu peso(Kg)" );
+    peso = leia.nextFloat();
+    
+    imc = peso / (altura * altura);
+    
+    if(imc > 20.0) {
+        System.out.println("Seu IMC é " +imc+ " você está abaixo do peso");
+    }
+    
+    else if (imc >= 20 && imc < 25) {
+        System.out.println("Seu IMC é " +imc+ " você está no peso Normal"); 
+    } 
+    
+    else if(imc >= 25 && imc < 30) {
+        System.out.println("Seu IMC é " +imc+ " você está com sobre Peso"); 
+    } 
+    
+    else if(imc >= 30 && imc < 40) {
+        System.out.println("Seu IMC é " +imc+ " você está com Obesidade"); 
+    } 
+    
+    else if(imc > 40) {
+        System.out.println("Seu IMC é " +imc+ " você está com Obesidade Mórbida"); 
+    } 
+    
+}
+}
 
 7. Uma empresa decide dar aumento de 30% aos funcionários com salários inferiores a R$1000,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso o funcionário não tenha direito ao aumento.
 
