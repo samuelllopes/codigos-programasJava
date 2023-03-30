@@ -3,6 +3,7 @@ do teclado e que apresente o resultado da média aritmética dos dois números
 informados.
 
 import java.util.Scanner;
+
 public class Main{
 	public static void main(String[] args) {
 	    
