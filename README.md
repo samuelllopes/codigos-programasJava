@@ -10,3 +10,4 @@ Repositório com códigos e programas em Java, feito por mim!
 * [maincondicional.java](maincondicional.java)
 * [maindowhile.java](maindowhile.java)
 * [mainvetores.java](mainvetores.java)
+* [mainsequencial2.java](mainsequencial2.java)
